@@ -20,8 +20,8 @@ for iter = 1:num_iters
     % theta : n+1 dimensional vector
     % alpha : real number
     % delta : vector
-    % X*theta :  real number
-    % y : n+1 vector
+    % X*theta : n+1 vector
+    % y : real number
     
     delta = 1/m * X'*(X*theta-y)
     theta = theta - (alpha * delta);
